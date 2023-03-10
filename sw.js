@@ -2,12 +2,12 @@ const APP_PREFIX = 'FontStyleMatcher_';   // Identifier for this app (this needs
 const VERSION = '0.0.15';                 // Version of the off-line cache (change this value everytime you want to update cache)
 const CACHE_NAME = APP_PREFIX + VERSION;
 const URLS = [                            // Add URL you want to cache in this list.
-  '/font-style-matcher/',
-  '/font-style-matcher/index.html',
-  '/font-style-matcher/style.css',
-  '/font-style-matcher/app.js',
-  '/font-style-matcher/manifest.json',
-  '/font-style-matcher/images/favicon.ico',
+  '/',
+  '/index.html',
+  '/style.css',
+  '/app.js',
+  '/manifest.json',
+  '/images/favicon.ico',
 ];
 
 addEventListener('install', event => {
